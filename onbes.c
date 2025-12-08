@@ -13,7 +13,7 @@ int main() {
         scanf("%d", &dizi[i]);
     }
 
-    int son = dizi[ele-1];
+    int son=dizi[ele-1];
 
     for(i=ele-1;i>0;i--){
         dizi[i] = dizi[i-1];
